@@ -1,0 +1,205 @@
+CREATE TABLE `flow_geo` (
+`GEOID` varchar(45) DEFAULT NULL,
+  KEY `GEOID` (`GEOID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8
+
+mysqlimport --ignore-lines=1 --fields-terminated-by= --fields-enclosed-by=\" --columns='`GEOID`' --local -u root -p CTPP_Documentation acs_2006thru2010_ctpp_flow_geo.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CREATE TABLE `acs_2006thru2010_ctpp_avewgt` (
+`ST` varchar(45) DEFAULT NULL,
+`AVEWGT` varchar(45) DEFAULT NULL
+  KEY `ST` (`ST`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8
+
+mysqlimport --ignore-lines=1 --fields-terminated-by=\| --fields-enclosed-by=\" --columns='`ST`,`AVEWGT`' --local -u root -p CTPP_Documentation acs_2006thru2010_ctpp_avewgt.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CREATE TABLE `acs_2006thru2010_ctpp_invalid` (
+`TBLID` varchar(45) DEFAULT NULL,
+`LINENO` varchar(45) DEFAULT NULL,
+`LDESC` varchar(45) DEFAULT NULL,
+`EST_SYMBOL` varchar(45) DEFAULT NULL,
+`SE_SYMBOL` varchar(45) DEFAULT NULL,
+  KEY `TBLID` (`TBLID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8
+
+mysqlimport --ignore-lines=1 --fields-terminated-by=\| --fields-enclosed-by=\" --columns='`TBLID`,`LINENO`,`LDESC`,`EST_SYMBOL`,`SE_SYMBOL`' --local -u root -p CTPP_Documentation acs_2006thru2010_ctpp_invalid.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CREATE TABLE `acs_2006thru2010_ctpp_pow_geo` (
+`SOURCE` varchar(45) DEFAULT NULL,
+`YEAR` varchar(45) DEFAULT NULL,
+`SUMLEVEL` varchar(45) DEFAULT NULL,
+`COMPONENT` varchar(45) DEFAULT NULL,
+`GEOID` varchar(45) DEFAULT NULL,
+`NAME` varchar(45) DEFAULT NULL,
+`STBUCKET` varchar(45) DEFAULT NULL,
+`US` varchar(45) DEFAULT NULL,
+`PR` varchar(45) DEFAULT NULL,
+`ST` varchar(45) DEFAULT NULL,
+`BST` varchar(45) DEFAULT NULL,
+`CTY` varchar(45) DEFAULT NULL,
+`BCTY` varchar(45) DEFAULT NULL,
+`CBSA` varchar(45) DEFAULT NULL,
+`MCD` varchar(45) DEFAULT NULL,
+`MEMI` varchar(45) DEFAULT NULL,
+`MEMIR` varchar(45) DEFAULT NULL,
+`MEMIRB` varchar(45) DEFAULT NULL,
+`MPO` varchar(45) DEFAULT NULL,
+`PCI` varchar(45) DEFAULT NULL,
+`PCIR` varchar(45) DEFAULT NULL,
+`PL` varchar(45) DEFAULT NULL,
+`POWS` varchar(45) DEFAULT NULL,
+`POWC` varchar(45) DEFAULT NULL,
+`POWSR` varchar(45) DEFAULT NULL,
+`POWCBSA` varchar(45) DEFAULT NULL,
+`POWM` varchar(45) DEFAULT NULL,
+`POWMEMI` varchar(45) DEFAULT NULL,
+`POWMEMIR` varchar(45) DEFAULT NULL,
+`POWMEMRB` varchar(45) DEFAULT NULL,
+`POWMPO` varchar(45) DEFAULT NULL,
+`POWP` varchar(45) DEFAULT NULL,
+`POWPCI` varchar(45) DEFAULT NULL,
+`POWPCIR` varchar(45) DEFAULT NULL,
+`POWPUMA` varchar(45) DEFAULT NULL,
+`POWT` varchar(45) DEFAULT NULL,
+`POWTD` varchar(45) DEFAULT NULL,
+`POWTZ` varchar(45) DEFAULT NULL,
+`PUMA5` varchar(45) DEFAULT NULL,
+`TAD` varchar(45) DEFAULT NULL,
+`TAZ` varchar(45) DEFAULT NULL,
+`TR` varchar(45) DEFAULT NULL,
+  KEY `GEOID` (`GEOID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8
+
+mysqlimport --ignore-lines=1 --fields-terminated-by=\| --fields-enclosed-by=\" --columns='`SOURCE`,`YEAR`,`SUMLEVEL`,`COMPONENT`,`GEOID`,`NAME`,`STBUCKET`,`US`,`PR`,`ST`,`BST`,`CTY`,`BCTY`,`CBSA`,`MCD`,`MEMI`,`MEMIR`,`MEMIRB`,`MPO`,`PCI`,`PCIR`,`PL`,`POWS`,`POWC`,`POWSR`,`POWCBSA`,`POWM`,`POWMEMI`,`POWMEMIR`,`POWMEMRB`,`POWMPO`,`POWP`,`POWPCI`,`POWPCIR`,`POWPUMA`,`POWT`,`POWTD`,`POWTZ`,`PUMA5`,`TAD`,`TAZ`,`TR`' --local -u root -p CTPP_Documentation acs_2006thru2010_ctpp_pow_geo.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CREATE TABLE `acs_2006thru2010_ctpp_res_geo` (
+`SOURCE` varchar(45) DEFAULT NULL,
+`YEAR` varchar(45) DEFAULT NULL,
+`SUMLEVEL` varchar(45) DEFAULT NULL,
+`COMPONENT` varchar(45) DEFAULT NULL,
+`GEOID` varchar(45) DEFAULT NULL,
+`NAME` varchar(45) DEFAULT NULL,
+`STBUCKET` varchar(45) DEFAULT NULL,
+`US` varchar(45) DEFAULT NULL,
+`PR` varchar(45) DEFAULT NULL,
+`ST` varchar(45) DEFAULT NULL,
+`BST` varchar(45) DEFAULT NULL,
+`CTY` varchar(45) DEFAULT NULL,
+`BCTY` varchar(45) DEFAULT NULL,
+`CBSA` varchar(45) DEFAULT NULL,
+`MCD` varchar(45) DEFAULT NULL,
+`MEMI` varchar(45) DEFAULT NULL,
+`MEMIR` varchar(45) DEFAULT NULL,
+`MEMIRB` varchar(45) DEFAULT NULL,
+`MPO` varchar(45) DEFAULT NULL,
+`PCI` varchar(45) DEFAULT NULL,
+`PCIR` varchar(45) DEFAULT NULL,
+`PL` varchar(45) DEFAULT NULL,
+`PUMA5` varchar(45) DEFAULT NULL,
+`TAD` varchar(45) DEFAULT NULL,
+`TAZ` varchar(45) DEFAULT NULL,
+`TR` varchar(45) DEFAULT NULL,
+`UA` varchar(45) DEFAULT NULL,
+`UR` varchar(45) DEFAULT NULL,
+  KEY `GEOID` (`GEOID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8
+
+mysqlimport --ignore-lines=1 --fields-terminated-by=\| --fields-enclosed-by=\" --columns='`SOURCE`,`YEAR`,`SUMLEVEL`,`COMPONENT`,`GEOID`,`NAME`,`STBUCKET`,`US`,`PR`,`ST`,`BST`,`CTY`,`BCTY`,`CBSA`,`MCD`,`MEMI`,`MEMIR`,`MEMIRB`,`MPO`,`PCI`,`PCIR`,`PL`,`PUMA5`,`TAD`,`TAZ`,`TR`,`UA`,`UR`' --local -u root -p CTPP_Documentation acs_2006thru2010_ctpp_res_geo.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CREATE TABLE `acs_2006thru2010_ctpp_table_shell` (
+`TBLID` varchar(45) DEFAULT NULL,
+`LINENO` varchar(45) DEFAULT NULL,
+`LINDENT` varchar(45) DEFAULT NULL,
+`LDESC` varchar(45) DEFAULT NULL,
+  KEY `TBLID` (`TBLID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8
+
+
+mysqlimport --ignore-lines=1 --fields-terminated-by=\| --fields-enclosed-by=\" --columns='`TBLID`,`LINENO`,`LINDENT`, `LDESC`' --local -u root -p CTPP_Documentation acs_2006thru2010_ctpp_table_shell.txt
+
+
+delimiter $$
+
+CREATE TABLE `A302103_tracts` (
+  `from_tract` varchar(35) NOT NULL,
+  `to_tract` varchar(35) NOT NULL,
+  `lineno` int(22) DEFAULT NULL,
+  `est` int(22) DEFAULT NULL,
+  `se` decimal(15,9) DEFAULT NULL,
+  `source` varchar(45) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8$$
+
+
+insert into CTPP_34.`A302103_tracts` select SUBSTRING(geoid,8,11),SUBSTRING(geoid,19,11),lineno, est,se,source from CTPP_34.A302103 where geoid like "C54%" and lineno = 8
+
+
