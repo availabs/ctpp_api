@@ -1,0 +1,39 @@
+Hello World
+
+
+
+
+<!-- I am writing instuctuions for myseld
+
+include jquery
+make ajax to ctpp requiremswnts
+get that json
+data for each on that array
+jquery to create a select with options
+value of the select should be the table name
+text of the select should be the conecept name -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+
+<script>
+
+var CTPP_Table_Number;
+var Content;
+var Universe;
+
+var url ='http://localhost:1337/ctpp_requirements'
+
+ $.ajax({url:url, type:'GET',dataType:'json',async:true})
+.done(function(data){
+	console.log(data);
+	data.forEach(function(concepts){
+$('<option>').val(concepts.CTPP_Table_Number).text(concepts.Content + "________" + concepts.Universe).appendTo('#concept_select');
+})
+});
+
+
+
+
+</script>
+<body>
+<select id="concept_select"></select>
+</body>

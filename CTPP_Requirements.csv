@@ -1,0 +1,345 @@
+Old Univ #,Old Unique number within universe type,Old CTPP Table Number,Prefix for Set (Synthesized or not),CTPP Part, Univ #,Unique number within universe type,Colla-pse Suffix,CTPP Table Number*,Content,Universe,# of Cells
+1,100,11100,A,1,01,100,,A101100,Total Population (1),All persons,1
+1,101,11101,A,1,01,101,,A101101,Age (11),All persons,11
+1,103,11103,A,1,01,102,,A101102,Urban/Rural residence (3),All persons,3
+1,104,11104,A,1,01,103,,A101103,Hispanic origin (3),All persons,3
+1,106,11106,A,1,01,104,,A101104,Length of US Residence (6),All persons,6
+1,107,11107,A,1,01,105,,A101105,Minority status (3),All persons,3
+1,108,11108,A,1,01,106,,A101106,Unweighted sample count of the population (1),All persons,1
+1,109,11109,A,1,01,107,,A101107,Percent of population in sample (1),All persons,1
+1,110,11110,A,1,01,108,,A101108,Race (5),All persons,5
+1,111,11111,A,1,01,109,,A101109,School Enrollment (7),All persons,7
+1,112,11112,A,1,01,110,,A101110,Sex (3),All persons,3
+1,201,11201,A,1,01,201,,A101201,Age (11) by Minority status (3),All persons,33
+1,202,11202,A,1,01,202,,A101202,Age (9) by School enrollment (7),All persons,63
+1,203,11203,A,1,01,203,,A101203,Age (11) by Sex (3),All persons,33
+1,206,11206,A,1,01,204,,A101204,Hispanic Origin (3) by Race of Person (5) ,All persons,15
+2,100,12100,A,1,02,101,,A102101,Total workers (1),Workers 16 years and over,1
+2,101,12101,A,1,02,102,,A102102,Age of worker (8),Workers 16 years and over,8
+2,102,12102,A,1,02,103,,A102103,Class of worker (9),Workers 16 years and over,9
+2,103,12103,A,1,02,104,,A102104,Earnings in the past 12 months (2010$) (11),Workers 16 years and over,11
+2,104,12104,A,1,02,105,,A102105,Industry (15) ,Workers 16 years and over,15
+2,106,12106,A,1,02,106,,A102106,Means of transportation (18),Workers 16 years and over,18
+2,107,12107,A,1,02,107,,A102107,Occupation (25),Workers 16 years and over,25
+2,108,12108,A,1,02,108,,A102108,Time leaving home (41),Workers 16 years and over,41
+2,112,12112,A,1,02,109,,A102109,Usual Hours worked per week (7),Workers 16 years and over,7
+2,118,12118,A,1,02,110,,A102110,Travel time to work (12),Workers 16 years and over,12
+2,110,12110,B,1,02,201,,B102201,Minority Status (3) by Means of Transportation (11) ,Workers 16 years and over,33
+2,,12110C,B,1,02,201,C,B102201C,Minority Status (3) by Means of Transportation (7) ,Workers 16 years and over,21
+2,,12110C2,B,1,02,201,C2,B102201C2,Minority Status (3) by Means of Transportation (6)  ,Workers 16 years and over,18
+2,,12110C3,B,1,02,201,C3,B102201C3,Minority Status (3) by Means of Transportation (4) ,Workers 16 years and over,12
+2,200,12200,A,1,02,202,,A102202,Age of Worker (8) by Earnings in the past 12 months (2010$) (11),Workers 16 years and over,88
+2,201,12201,B,1,02,203,,B102203,Age of Worker (8) by Means of transportation (11),Workers 16 years and over,88
+2,,12201C,B,1,02,203,C,B102203C,Age of Worker (8) by Means of transportation (7),Workers 16 years and over,56
+2,,12201C2,B,1,02,203,C2,B102203C2,Age of Worker (8) by Means of transportation (6),Workers 16 years and over,48
+2,,12201C3,B,1,02,203,C3,B102203C3,Age of Worker (8) by Means of transportation (4),Workers 16 years and over,32
+2,206,12206,A,1,02,204,,A102204,Earnings in the past 12 months (2010$) (11) by Travel time (12),Workers 16 years and over,132
+2,,12206C,A,1,02,204,C,A102204C,Earnings in the past 12 months (2010$) (6) by Travel time (12),Workers 16 years and over,72
+2,210,12210,A,1,02,205,,A102205,Hispanic Origin (3) by Race (5),Workers 16 years and over,15
+2,211,12211,A,1,02,206,,A102206,Industry (15) by Earnings in the past 12 months (2010$) (11),Workers 16 years and over,165
+2,,12211C,A,1,02,206,C,A102206C,Industry (15) by Earnings in the past 12 months (2010$) (6),Workers 16 years and over,90
+2,213,12213,A,1,02,207,,A102207,Industry (15) by Time leaving home (17),Workers 16 years and over,255
+2,,12213C,A,1,02,207,C,A102207C,Industry (15) by Time leaving home (10),Workers 16 years and over,150
+2,214,12214,A,1,02,208,,A102208,Length of US residence (6) by Earnings in the past 12 months (2010$) (11),Workers 16 years and over,66
+2,,12214C,A,1,02,208,C,A102208C,Length of US residence (6) by Earnings in the past 12 months (2010$) (6),Workers 16 years and over,36
+2,216,12216,A,1,02,209,,A102209,Minority Status (3) by Class of worker (9),Workers 16 years and over,27
+2,217,12217,A,1,02,210,,A102210,Minority Status (3) by Earnings in the past 12 months (2010$) (11),Workers 16 years and over,33
+2,218,12218,A,1,02,211,,A102211,Minority Status (3) by Industry (15),Workers 16 years and over,45
+2,220,12220,A,1,02,212,,A102212,Minority Status (3) by Occupation (25),Workers 16 years and over,75
+2,221,12221,A,1,02,213,,A102213,Minority Status (3) by Travel time (18),Workers 16 years and over,54
+2,222,12222,A,1,02,214,,A102214,Occupation (25) by Industry (15),Workers 16 years and over,375
+2,,12222C,A,1,02,214,C,A102214C,Occupation (8) by Industry (15),Workers 16 years and over,120
+2,224,12224,A,1,02,215,,A102215,Occupation (25) by Time leaving home (17),Workers 16 years and over,425
+2,,12224C,A,1,02,215,C,A102215C,Occupation (8) by Time leaving home (10),Workers 16 years and over,80
+2,226,12226,B,1,02,216,,B102216,Time leaving home (17) by Means of transportation (11),Workers 16 years and over,187
+2,,12226C,B,1,02,216,C,B102216C,Time leaving home (10) by Means of transportation (7),Workers 16 years and over,70
+2,,12226C2,B,1,02,216,C2,B102216C2,Time leaving home (10) by Means of transportation (6),Workers 16 years and over,60
+2,,12226C3,B,1,02,216,C3,B102216C3,Time leaving home (10) by Means of transportation (4),Workers 16 years and over,40
+2,227,12227,B,1,02,217,,B102217,Travel time (12) by Means of transportation (11),Workers 16 years and over,132
+2,,12227C,B,1,02,217,C,B102217C,Travel time (12) by Means of transportation (7),Workers 16 years and over,84
+2,,12227C2,B,1,02,217,C2,B102217C2,Travel time (12) by Means of transportation (6),Workers 16 years and over,72
+2,,12227C3,B,1,02,217,C3,B102217C3,Travel time (12) by Means of transportation (4),Workers 16 years and over,48
+3,100,13100,A,1,03,100,,A103100,Total Workers in households (1),Workers 16 years and over in households,1
+3,101,13101,A,1,03,101,,A103101,Household income in the past 12 months (2010$) (26),Workers 16 years and over in households,26
+3,303,13303,B,1,03,200,,B103200,Presence of Children (3) by Means of Transportation (11)  ,Workers 16 years and over in households,33
+3,,13303C,B,1,03,200,C,B103200C,Presence of Children (3) by Means of Transportation (7) ,Workers 16 years and over in households,21
+3,,13303C2,B,1,03,200,C2,B103200C2,Presence of Children (3) by Means of Transportation (6) ,Workers 16 years and over in households,18
+3,,13303C3,B,1,03,200,C3,B103200C3,Presence of Children (3) by Means of Transportation (4)  ,Workers 16 years and over in households,12
+3,304,13304,B,1,03,201,,B103201,Number of Workers in households (3) by Means of Transportation (11)  ,Workers 16 years and over in households,33
+3,,13304C,B,1,03,201,C,B103201C,Number of Workers in households (3) by Means of Transportation (7) ,Workers 16 years and over in households,21
+3,,13304C2,B,1,03,201,C2,B103201C2,Number of Workers in households (3) by Means of Transportation (6) ,Workers 16 years and over in households,18
+3,,13304C3,B,1,03,201,C3,B103201C3,Number of Workers in households (3) by Means of Transportation (4) ,Workers 16 years and over in households,12
+3,305,13305,B,1,03,202,,B103202,Median Household Income in the last 12 months (2010$) (1) by Means of Transportation (11) ,Workers 16 years and over in households,11
+3,New,13305C,B,1,03,202,C,B103202C,Median Household Income in the last 12 months (2010$) (1) by Means of Transportation (7) ,Workers 16 years and over in households,7
+3,New,13305C2,B,1,03,202,C2,B103202C2,Median Household Income in the last 12 months (2010$) (1) by Means of Transportation (6),Workers 16 years and over in households,6
+3,New,13305C3,B,1,03,202,C3,B103202C3,Median Household Income in the last 12 months (2010$) (1) by Means of Transportation (4) ,Workers 16 years and over in households,4
+3,204,13204,B,1,03,203,,B103203,Household income in the past 12 months (2010$) (26) by Means of transportation (11),Workers 16 years and over in households,286
+3,,13204C,B,1,03,203,C,B103203C,Household income in the past 12 months (2010$) (16) by Means of transportation (7),Workers 16 years and over in households,112
+3,,13204C2,B,1,03,203,C2,B103203C2,Household income in the past 12 months (2010$) (16) by Means of transportation (6),Workers 16 years and over in households,96
+3,,13204C3,B,1,03,203,C3,B103203C3,Household income in the past 12 months (2010$) (16) by Means of transportation (4),Workers 16 years and over in households,64
+3,205,13205,A,1,03,204,,A103204,Household income in the past 12 months (2010$) (9) by Earnings in the past 12 months (2010$) (11),Workers 16 years and over in households,99
+3,,13205C,A,1,03,204,C,A103204C,Household income in the past 12 months (2010$) (9) by Earnings in the past 12 months (2010$) (6),Workers 16 years and over in households,54
+3,210,13210,A,1,03,205,,A103205,Vehicles available (6) by Length of US residence (6),Workers 16 years and over in households,36
+3,211,13211,B,1,03,206,,B103206,Vehicles available (6) by Means of transportation (11),Workers 16 years and over in households,66
+3,,13211C,B,1,03,206,C,B103206C,Vehicles available (6) by Means of transportation (7),Workers 16 years and over in households,42
+3,,13211C2,B,1,03,206,C2,B103206C2,Vehicles available (6) by Means of transportation (6),Workers 16 years and over in households,36
+3,,13211C3,B,1,03,206,C3,B103206C3,Vehicles available (6) by Means of transportation (4),Workers 16 years and over in households,24
+3,214,13214,A,1,03,207,,A103207,Number of workers in household (6) by Household size (5),Workers 16 years and over in households,30
+3,301,13301,A,1,03,300,,A103300,Household income in the past 12 months (2010$) (5) by Number of Workers in household (6) by Age group of youngest child in the household (5),Workers 16 years and over in households,150
+4,207,13207,A,1,04,200,,A104200,Poverty status (4) by Time leaving home (17),Workers for whom poverty status is determined,68
+4,212,13212,A,1,04,201,,A104201,Vehicles available (6) by Poverty status (4),Workers 16 years and over in households for whom poverty status is determined,24
+5,105,12105,A,1,05,100,,A105100,Industry (15) ,Workers 16 years and over who are not self-employed,15
+6,229,12228C0,B,1,06,201,,B106200,Aggregate Travel time (1) by Means of transportation (18),Workers 16 years and over who did not work at home,18
+6,228,12228,B,1,06,200,C,B106200C,Aggregate Travel time (1) by Means of transportation (11),Workers 16 years and over who did not work at home,11
+6,,12228C,B,1,06,200,C2,B106200C2,Aggregate Travel time (1) by Means of transportation (7),Workers 16 years and over who did not work at home,7
+6,,12228C2,B,1,06,200,C3,B106200C3,Aggregate Travel time (1) by Means of transportation (6),Workers 16 years and over who did not work at home,6
+6,,12228C3,B,1,06,200,C4,B106200C4,Aggregate Travel time (1) by Means of transportation (4),Workers 16 years and over who did not work at home,4
+6,230,12230C0,B,1,06,202,,B106202,Mean Travel time (1) by Means of transportation (18),Workers 16 years and over who did not work at home,18
+6,230,12230,B,1,06,202,C,B106202C,Mean Travel time (1) by Means of transportation (11),Workers 16 years and over who did not work at home,11
+6,,12230C,B,1,06,202,C2,B106202C2,Mean Travel time (1) by Means of transportation (7),Workers 16 years and over who did not work at home,7
+6,,12230C2,B,1,06,202,C3,B106202C3,Mean Travel time (1) by Means of transportation (6),Workers 16 years and over who did not work at home,6
+6,,12230C3,B,1,06,202,C4,B106202C4,Mean Travel time (1) by Means of transportation (4),Workers 16 years and over who did not work at home,4
+6,233,12232C0,B,1,06,203,,B106203,Median Travel time (1) by Means of transportation (18),Workers 16 years and over who did not work at home,18
+6,232,12232,B,1,06,203,C,B106203C,Median Travel time (1) by Means of transportation (11),Workers 16 years and over who did not work at home,11
+6,,12232C,B,1,06,203,C2,B106203C2,Median Travel time (1) by Means of transportation (7),Workers 16 years and over who did not work at home,7
+6,,12232C2,B,1,06,203,C3,B106203C3,Median Travel time (1) by Means of transportation (6),Workers 16 years and over who did not work at home,6
+6,,12232C3,B,1,06,203,C4,B106203C4,Median Travel time (1) by Means of transportation (4),Workers 16 years and over who did not work at home,4
+6,300,12300,B,1,06,300,,B106300,Aggregate Travel time (1) by Means of transportation (11) by Time leaving home (17),Workers 16 years and over who did not work at home,187
+6,,12300C,B,1,06,300,C,B106300C,Aggregate Travel time (1) by Means of transportation (7) by Time leaving home (10),Workers 16 years and over who did not work at home,70
+6,,12300C2,B,1,06,300,C2,B106300C2,Aggregate Travel time (1) by Means of transportation (6) by Time leaving home (10),Workers 16 years and over who did not work at home,60
+6,,12300C3,B,1,06,300,C3,B106300C3,Aggregate Travel time (1) by Means of transportation (4) by Time leaving home (10),Workers 16 years and over who did not work at home,40
+6,301,12301,B,1,06,301,,B106301,Mean Travel time (1) by Means of transportation (11) by Time leaving home (17),Workers 16 years and over who did not work at home,187
+6,,12301C,B,1,06,301,C,B106301C,Mean Travel time (1) by Means of transportation (7) by Time leaving home (10),Workers 16 years and over who did not work at home,70
+6,,12301C2,B,1,06,301,C2,B106301C2,Mean Travel time (1) by Means of transportation (6) by Time leaving home (10),Workers 16 years and over who did not work at home,60
+6,,12301C3,B,1,06,301,C3,B106301C3,Mean Travel time (1) by Means of transportation (4) by Time leaving home (10),Workers 16 years and over who did not work at home,40
+6,302,12302,B,1,06,302,,B106302,Median Travel time (1) by Means of transportation (11) by Time leaving home (17),Workers 16 years and over who did not work at home,187
+6,,12302C,B,1,06,302,C,B106302CZ,Median Travel time (1) by Means of transportation (7) by Time leaving home (10),Workers 16 years and over who did not work at home,70
+6,,12302C2,B,1,06,302,C2,B106302C2,Median Travel time (1) by Means of transportation (6) by Time leaving home (10),Workers 16 years and over who did not work at home,60
+6,,12302C3,B,1,06,302,C3,B106302C3,Median Travel time (1) by Means of transportation (4) by Time leaving home (10),Workers 16 years and over who did not work at home,40
+7,109,12109,A,1,07,100,,A107100,"Workers per car, truck, or van (1)","Workers 16 years and over who used car, truck or van",1
+7,234,12234,B,1,07,200,,B107200,Aggregate Vehicles used (1) by Time leaving home (5),"Workers 16 years and over who used car, truck or van",5
+7,236,12236,A,1,07,201,,A107201,"Workers per car, truck, or van (1) by Time leaving home (5)","Workers 16 years and over who used car, truck or van",5
+9,202,12202,B,1,09,202,,B109202,Aggregate Carpools (1) by Time leaving home (5),Workers 16 years and over who carpooled,5
+9,235,12235,A,1,09,203,,A109203,Workers per carpool (1) by Time leaving home (5),Workers 16 years and over who carpooled,5
+10,100,15100,A,1,10,100,,A110100,Total Housing units(1),All housing units,1
+10,101,15101,A,1,10,101,,A110101,Housing units sampled [total] (1),All housing units,1
+10,102,15102,A,1,10,103,,A110103,Housing units sampled [percent] (1),All housing units,1
+10,103,15103,A,1,10,104,,A110104,Units in Structure (9),All housing units,9
+10,104,15104,A,1,10,105,,A110105,Vacancy status (6),All housing units,6
+10,200,15200,A,1,10,201,,A110201,Occupancy status (3) by Units in structure (7),All housing units,21
+11,108,14108,A,1,11,100,,A111100,Telephone availability (3),Occupied housing units,3
+11,109,14109,A,1,11,101,,A111101,Tenure (5),Occupied housing units,5
+11,110,14110,A,1,11,102,,A111102,Vehicles available (6),Occupied housing units,6
+11,111,14111,B,1,11,103,,B111103,Aggregate Number of Vehicles Available in Households (1),Occupied housing units,1
+11,219,14219,A,1,11,200,,A111200,Vehicles available (6) by Units in structure (7),Occupied housing units,42
+12,100,14100,A,1,12,100,,A112100,Total households (1),Households,1
+12,101,14101,A,1,12,101,,A112101,Number of Persons under 18 in household (4),Households,4
+12,NEW,14102A,B,1,12,102,,B112102,Aggregate Household income in the past 12 months (2010$)  (1) ,Households,1
+12,102,14102,B,1,12,103,,B112103,Mean Household income in the past 12 months (2010$)  (1) ,Households,1
+12,103,14103,B,1,12,104,,B112104,Median Household income in the past 12 months (2010$) (1) ,Households,1
+12,104,14104,A,1,12,105,,A112105,Lifecycle of household (16),Households,16
+12,105,14105,A,1,12,106,,A112106,Household size (5),Households,5
+12,NEW,14106A,A,1,12,107,,A112107,Population in households (1),Population in Households,1
+12,106,14106,B,1,12,108,,B112108,Mean number of Persons per household (1),Households,1
+12,112,14112,A,1,12,109,,A112109,Number of Workers in household (6) ,Households,6
+12,200,14200,A,1,12,200,,A112200,Household income in the past 12 months (2010$) (5) by Lifecycle of  household (16) ,Households,80
+12,201,14201,A,1,12,201,,A112201,Household income in the past 12 months (2010$) (9) by Number of Persons under 18 (4) ,Households,36
+12,202,14202,B,1,12,202,,B112202,Aggregate Household income in the past 12 months (2010$) (1) by Number of workers in household (6),Households,6
+12,203,14203,B,1,12,203,,B112203,Aggregate Household income in the past 12 months (2010$) (1) by Vehicles available (6),Households,6
+12,204,14204,B,1,12,204,,B112204,Mean Household income in the past 12 months (2010$) (1) by Number of workers in household (6),Households,6
+12,205,14205,B,1,12,205,,B112205,Mean Household income in the past 12 months (2010$) (1) by Vehicles available (6),Households,6
+12,206,14206,B,1,12,206,,B112206,Median Household income in the past 12 months (2010$) (1) by Number of workers in household (6),Households,6
+12,207,14207,B,1,12,207,,B112207,Median Household income in the past 12 months (2010$) (1) by Vehicles available (6),Households,6
+12,208,14208,A,1,12,208,,A112208,Household size (5) by Household income in the past 12 months (2010$) (26),Households,130
+12,,14208C,A,1,12,208,,A112208C,Household size (5) by Household income in the past 12 months (2010$) (9),Households,45
+12,209,14209,A,1,12,209,,A112209,Household size (5) by Number of workers in household (6),Households,30
+12,210,14210,A,1,12,210,,A112210,Household size (5) by Units in Structure (9),Households,45
+12,211,14211,A,1,12,211,,A112211,Household size (5) by Vehicles available (6),Households,30
+12,212,14212,A,1,12,212,,A112212,Minority Status of the householder (3) by Telephone availability (3),Households,9
+12,214,14214,A,1,12,213,,A112213,Vehicles available (6) by Age of householder (8),Households,48
+12,215,14215,A,1,12,214,,A112214,Vehicles available (6) by Household income in the past 12 months (2010$) (26),Households,156
+12,,14215C,A,1,12,214,C,A112214C,Vehicles available (6) by Household income in the past 12 months (2010$) (9),Households,54
+12,216,14216,A,1,12,215,,A112215,Vehicles available (6) by Length of US residence of the householder (6),Households,36
+12,217,14217,A,1,12,216,,A112216,Vehicles available (6) by Minority Status of householder (3),Households,18
+12,218,14218,A,1,12,217,,A112217,Vehicles available (6) by Number of Persons 16 or over in household (6),Households,36
+12,221,14221,A,1,12,218,,A112218,Number of Workers in household (6) by Household income in the past 12 months (2010$) (26),Households,156
+12,,14221C,A,1,12,218,C,A112218C,Number of Workers in household (6) by Household income in the past 12 months (2010$) (9),Households,54
+12,222,14222,A,1,12,219,,A112219,Number of Workers in household (6) by Vehicles available (6),Households,36
+12,300,14300,A,1,12,300,,A112300,Lifecycle of household (16) by Number of Workers in Household (3) by Vehicles available (5),Households,240
+12,301,14301,A,1,12,301,,A112301,Household size (5) by Household income in the past 12 months (2010$) (5) by Number of Persons Under 18 (4),Households,100
+12,302,14302,A,1,12,302,,A112302,Household size (5) by Household income in the past 12 months (2010$) (9) by Minority Status of householder (3),Households,135
+12,303,14303,A,1,12,303,,A112303,Household size (5) by Number of workers in household (6) by Household income in the past 12 months (2010$) (9),Households,270
+12,,14303C,A,1,12,303,C,A112303C,Household size (5) by Number of workers in household (6) by Household income in the past 12 months (2010$) (5),Households,150
+12,304,14304,A,1,12,304,,A112304,Household size (5) by Number of workers in household (6) by Number of Persons Under 18 (4),Households,120
+12,305,14305,A,1,12,305,,A112305,Household size (5) by Number of workers in household (6) by Vehicles available (5),Households,150
+12,306,14306,A,1,12,306,,A112306,Household size (5) by Vehicles available (5) by Household income in the past 12 months (2010$) (9),Households,225
+12,,14306C,A,1,12,306,C,A112306C,Household size (5) by Vehicles available (5) by Household income in the past 12 months (2010$) (5),Households,125
+12,307,14307,A,1,12,307,,A112307,Household size (5) by Vehicles available (5) by Number of Persons Under 18 (4),Households,100
+12,308,14308,A,1,12,308,,A112308,Household size (5) by Vehicles available (5) by Units in structure (7),Households,175
+12,309,14309,A,1,12,309,,A112309,Household size (5) by Vehicles available (5) by Tenure (5),Households,125
+12,310,14310,A,1,12,310,,A112310,Number of Workers in household (6) by Vehicles available (5) by Household income in the past 12 months (2010$) (9),Households,270
+12,,14310C,A,1,12,310,C,A112310C,Number of Workers in household (6) by Vehicles available (5) by Household income in the past 12 months (2010$) (5),Households,150
+12,311,14311,A,1,12,311,,A112311,Number of Workers in households (6) by Household income in the past 12 months (2010$) (5) by Number of Persons Under 18 (4),Households,120
+12,312,14312,A,1,12,312,,A112312,Number of Workers in households (6) by Vehicles available (5) by Number of Persons Under 18 (4),Households,120
+12,113,112113,A,1,12,313,,A112313,Household Income (5) by Lifecycle (10) by Minority Status (3),Households,150
+13,107,14107,A,1,13,100,,A113100,Poverty status (4),Households for which poverty status is determined,4
+13,213,14213,A,1,13,200,,A113200,Poverty status (4) by Telephone availability (3),Households for which poverty status is determined,12
+13,220,14220,A,1,13,201,,A113201,Vehicles available (6) by Poverty status (4),Households for which poverty status is determined,24
+16,205,11205,A,1,16,200,,A116200,Employment status (7) by Sex (3),Persons 16 years and over,21
+17,207,11207,A,1,17,200,,A117200,Linguistic Isolation (3) by Language spoken at home (12) ,Persons 5 years old and over in households ,36
+2,100,22100,A,2,02,100,,A202100,Total Workers (1),Workers 16 years and over,1
+2,101,22101,A,2,02,101,,A202101,Age of Worker (10),Workers 16 years and over,10
+2,102,22102,A,2,02,102,,A202102,Class of worker (9),Workers 16 years and over,9
+2,103,22103,A,2,02,103,,A202103,Earnings in the past 12 months (2010$) (11),Workers 16 years and over,11
+2,104,22104,A,2,02,104,,A202104,Industry (15) ,Workers 16 years and over,15
+2,106,22106,A,2,02,105,,A202105,Means of Transportation (18),Workers 16 years and over,18
+2,107,22107,A,2,02,106,,A202106,Occupation (25),Workers 16 years and over,25
+2,111,22111,A,2,02,107,,A202107,Hispanic Origin (3),Workers 16 years and over,3
+2,112,22112,A,2,02,108,,A202108,Usual Hours worked per week (7),Workers 16 years and over,7
+2,113,22113,A,2,02,109,,A202109,Length of US residence (6),Workers 16 years and over,6
+2,114,22114,A,2,02,110,,A202110,Race (5),Workers 16 years and over,5
+2,115,22115,A,2,02,111,,A202111,Sex (3) ,Workers 16 years and over,3
+2,116,22116,A,2,02,112,,A202112,Time arriving (41),Workers 16 years and over,41
+2,118,22118,A,2,02,113,,A202113,Travel time to work (12),Workers 16 years and over,12
+2,110,22110,B,2,02,200,,B202200,Minority Status (3) by Means of Transportation (11) ,Workers 16 years and over,33
+2,,22110C,B,2,02,200,C,B202200C,Minority Status (3) by Means of Transportation (7) ,Workers 16 years and over,21
+2,,22110C2,B,2,02,200,C2,B202200C2,Minority Status (3) by Means of Transportation (6)  ,Workers 16 years and over,18
+2,,22110C3,B,2,02,200,C3,B202200C3,Minority Status (3) by Means of Transportation (4) ,Workers 16 years and over,12
+2,200,22200,A,2,02,201,,A202201,Age of Worker (8) by Earnings in the past 12 months (2010$) (11),Workers 16 years and over,88
+2,201,22201,B,2,02,202,,B202202,Age of Worker (8) by Means of transportation (11),Workers 16 years and over,88
+2,,22201C,B,2,02,202,C,B202202C,Age of Worker (8) by Means of transportation (7),Workers 16 years and over,56
+2,,22201C2,B,2,02,202,C2,B202202C2,Age of Worker (8) by Means of transportation (6),Workers 16 years and over,48
+2,,22201C3,B,2,02,202,C3,B202202C3,Age of Worker (8) by Means of transportation (4),Workers 16 years and over,32
+2,206,22206,A,2,02,203,,A202203,Earnings in the past 12 months (2010$) (11) by Travel time (12),Workers 16 years and over,132
+2,,22206C,A,2,02,203,C,A202203C,Earnings in the past 12 months (2010$) (6) by Travel time (12) ,Workers 16 years and over,72
+2,210,22210,A,2,02,204,,A202204,Hispanic origin (3) by Race (5) ,Workers 16 years and over,15
+2,211,22211,A,2,02,205,,A202205,Industry (15) by Earnings in the past 12 months (2010$) (11),Workers 16 years and over,165
+2,,22211C,A,2,02,205,C,A202205C,Industry (15) by Earnings in the past 12 months (2010$) (6),Workers 16 years and over,90
+2,214,22214,A,2,02,206,,A202206,Length of US residence (6) by Earnings in the past 12 months (2010$) (11),Workers 16 years and over,66
+2,,22214C,A,2,02,206,C,A202206C,Length of US residence (6) by Earnings in the past 12 months (2010$) (6),Workers 16 years and over,36
+2,216,22216,A,2,02,207,,A202207,Minority Status (3) by Class of worker (9),Workers 16 years and over,27
+2,217,22217,A,2,02,208,,A202208,Minority Status (3) by Earnings in the past 12 months (2010$) (11),Workers 16 years and over,33
+2,218,22218,A,2,02,209,,A202209,Minority Status (3) by Industry (15),Workers 16 years and over,45
+2,220,22220,A,2,02,210,,A202210,Minority Status (3) by Occupation (25),Workers 16 years and over,75
+2,221,22221,A,2,02,211,,A202211,Minority Status (3) by Travel time (18),Workers 16 years and over,54
+2,222,22222,A,2,02,212,,A202212,Occupation (25) by Industry (15),Workers 16 years and over,375
+2,,22222C,A,2,02,212,C,A202212C,Occupation (8) by Industry (15),Workers 16 years and over,120
+2,227,22227,B,2,02,213,,B202213,Travel time (12) by Means of transportation (11),Workers 16 years and over,132
+2,,22227C,B,2,02,213,C,B202213C,Travel time (12) by Means of transportation (7),Workers 16 years and over,84
+2,,22227C2,B,2,02,213,C2,B202213C2,Travel time (12) by Means of transportation (6),Workers 16 years and over,72
+2,,22227C3,B,2,02,213,C3,B202213C3,Travel time (12) by Means of transportation (4),Workers 16 years and over,48
+2,237,22237,A,2,02,214,,A202214,Industry (15) by Time arriving (17),Workers 16 years and over,255
+2,,22237C,A,2,02,214,C,A202214C,Industry (15) by Time arriving (10),Workers 16 years and over,150
+2,240,22240,A,2,02,215,,A202215,Linguistic Isolation (3) by Language spoken at home(12) ,Workers 16 years and over in households ,36
+2,238,22238,B,2,02,216,,B202216,Time arriving (17) by Means of transportation (11),Workers 16 years and over,187
+2,,22238C,B,2,02,216,C,B202216C,Time arriving (10) by Means of Transportation (7),Workers 16 years and over,70
+2,,22238C2,B,2,02,216,C2,B202216C2,Time arriving (10) by Means of transportation (6),Workers 16 years and over,60
+2,,22238C3,B,2,02,216,C3,B202216C3,Time arriving (10) by Means of Transportation (4),Workers 16 years and over,40
+2,239,22239,A,2,02,217,,A202217,Occupation (25) by Time arriving (17),Workers 16 years and over,425
+2,,22239C,A,2,02,217,C,A202217C,Occupation (8) by Time arriving (10),Workers 16 years and over,80
+3,100,23100,A,2,03,100,,A203100,Total Workers in households (1),Workers 16 years and over in households,1
+3,101,23101,A,2,03,101,,A203101,Household income in the past 12 months (2010$) (26),Workers 16 years and over in households,26
+3,102,23102,A,2,03,102,,A203102,Vehicles Available (6),Workers 16 years and over in households,6
+3,NEW,23103A,A,2,03,103,,A203103,Aggregate Vehicles Per Worker in Household (1) ,Workers 16 years and over in households,1
+3,103,23103,A,2,03,104,,A203104,Vehicles per household [average] (1),Workers 16 years and over in households,1
+3,204,23204,B,2,03,200,,B203200,Household income in the past 12 months (2010$) (26) by Means of transportation (11),Workers 16 years and over in households,286
+3,,23204C,B,2,03,201,C,B203201C,Household income in the past 12 months (2010$) (16) by Means of transportation (7),Workers 16 years and over in households,112
+3,,23204C2,B,2,03,201,C2,B203201C2,Household income in the past 12 months (2010$) (16) by Means of transportation (6),Workers 16 years and over in households,96
+3,,23204C3,B,2,03,201,C3,B203201C3,Household income in the past 12 months (2010$) (16) by Means of transportation (4),Workers 16 years and over in households,64
+3,205,23205,A,2,03,202,,A203202,Household income in the past 12 months (2010$) (9) by Earnings in the past 12 months (2010$) (11),Workers 16 years and over in households,99
+3,,23205C,A,2,03,202,C,A203202C,Household income in the past 12 months (2010$) (9) by Earnings in the past 12 months (2010$) (6),Workers 16 years and over in households,54
+3,210,23210,A,2,03,203,,A203203,Vehicles available (6) by Length of US residence (6),Workers 16 years and over in households,36
+3,211,23211,B,2,03,204,,B203204,Vehicles available (6) by Means of transportation (11),Workers 16 years and over in households,66
+3,,23211C,B,2,03,204,C,B203204C,Vehicles available (6) by Means of transportation (7),Workers 16 years and over in households,42
+3,,23211C2,B,2,03,204,C2,B203204C2,Vehicles available (6) by Means of transportation (6),Workers 16 years and over in households,36
+3,,23211C3,B,2,03,204,C3,B203204C3,Vehicles available (6) by Means of transportation (4),Workers 16 years and over in households,24
+3,214,23214,A,2,03,205,,A203205,Number of Workers in household (6) by Household size (5),Workers 16 years and over in households,30
+3,303,23303,B,2,03,206,,B203206,Presence of Children (3) by Means of Transportation (11)  ,Workers 16 years and over in households,33
+3,,23303C,B,2,03,206,C,B203206C,Presence of Children (3) by Means of Transportation (7) ,Workers 16 years and over in households,21
+3,,23303C2,B,2,03,206,C2,B203206C2,Presence of Children (3) by Means of Transportation (6) ,Workers 16 years and over in households,18
+3,,23303C3,B,2,03,206,C3,B203206C3,Presence of Children (3) by Means of Transportation (4)  ,Workers 16 years and over in households,12
+3,213,23304,B,2,03,207,,B203207,Number of Workers in households (3) by Means of Transportation (11)  ,Workers 16 years and over in households,33
+3,,23304C,B,2,03,207,C,B203207C,Number of Workers in households (3) by Means of Transportation (7) ,Workers 16 years and over in households,21
+3,,23304C2,B,2,03,207,C2,B203207C2,Number of Workers in households (3) by Means of Transportation (6) ,Workers 16 years and over in households,18
+3,,23304C3,B,2,03,207,C3,B203207C3,Number of Workers in households (3) by Means of Transportation (4) ,Workers 16 years and over in households,12
+3,305,23305,B,2,03,208,,B203208,Median Household Income in the last 12 months (2010$) (1) by Means of Transportation (11),Workers 16 years and over in households,11
+3,,23305C,B,2,03,208,C,B203208C,Median Household Income in the last 12 months (2010$) (1) by Means of Transportation (7),Workers 16 years and over in households,7
+3,,23305C2,B,2,03,208,C2,B203208C2,Median Household Income in the last 12 months (2010$) (1) by Means of Transportation (6),Workers 16 years and over in households,6
+3,,23305C3,B,2,03,208,C3,B203208C3,Median Household Income in the last 12 months (2010$) (1) by Means of Transportation (4),Workers 16 years and over in households,4
+3,301,23301,A,2,03,300,,A203300,Household income in the past 12 months (2010$) (5) by Number of Workers in household (6) by Age group of youngest child in the household (5),Workers 16 years and over in households,150
+4,212,23212,A,2,04,200,,A204200,Vehicles available (6) by Poverty status (4),Workers 16 years and over in households for whom poverty status is determined,24
+4,216,23216,A,2,04,201,,A204201,Poverty status (4) by Time arriving (17),Workers 16 years and over for whom poverty status is determined,68
+5,105,22105,A,2,05,100,,A205100,Industry (15) ,Workers 16 years and over who are not self-employed,15
+6,229,22228C0,B,2,06,201,,B206200,Aggregate travel time (1) by Means of transportation (18),Workers 16 years and over who did not work at home,18
+6,228,22228,B,2,06,200,C,B206200C,Aggregate travel time (1) by Means of transportation (11),Workers 16 years and over who did not work at home,11
+6,,22228C,B,2,06,200,C2,B206200C2,Aggregate travel time (1) by Means of transportation (7),Workers 16 years and over who did not work at home,7
+6,,22228C2,B,2,06,200,C3,B206200C3,Aggregate travel time (1) by Means of transportation (6),Workers 16 years and over who did not work at home,6
+6,,22228C3,B,2,06,200,C4,B206200C4,Aggregate travel time (1) by Means of transportation (4),Workers 16 years and over who did not work at home,4
+6,231,22230C0,B,2,06,202,,B206202,Mean travel time (1) by Means of transportation (18),Workers 16 years and over who did not work at home,18
+6,230,22230,B,2,06,202,C,B206202C,Mean travel time (1) by Means of transportation (11),Workers 16 years and over who did not work at home,11
+6,,22230C,B,2,06,202,C2,B206202C2,Mean travel time (1) by Means of transportation (7),Workers 16 years and over who did not work at home,7
+6,,22230C2,B,2,06,202,C3,B206202C3,Mean travel time (1) by Means of transportation (6),Workers 16 years and over who did not work at home,6
+6,,22230C3,B,2,06,202,C4,B206202C4,Mean travel time (1) by Means of transportation (4),Workers 16 years and over who did not work at home,4
+6,233,22232C0,B,2,06,203,,B206203,Median travel time (1) by Means of transportation (18),Workers 16 years and over who did not work at home,18
+6,232,22232,B,2,06,203,,B206203C,Median travel time (1) by Means of transportation (11),Workers 16 years and over who did not work at home,11
+6,,22232C,B,2,06,203,C2,B206203C2,Median travel time (1) by Means of transportation (7),Workers 16 years and over who did not work at home,7
+6,,22232C2,B,2,06,203,C3,B206203C3,Median travel time (1) by Means of transportation (6),Workers 16 years and over who did not work at home,6
+6,,22232C3,B,2,06,203,C4,B206203C4,Median travel time (1) by Means of transportation (4),Workers 16 years and over who did not work at home,4
+6,303,22303,B,2,06,300,,B206300,Aggregate travel time (1) by Means of transportation (11) by Time arriving (17),Workers 16 years and over who did not work at home,187
+6,,22303C,B,2,06,300,C,B206300C,Aggregate travel time (1) by Means of transportation (7) by Time arriving (10),Workers 16 years and over who did not work at home,70
+6,,22303C2,B,2,06,300,C2,B206300C2,Aggregate travel time (1) by Means of transportation (6) by Time arriving (10),Workers 16 years and over who did not work at home,60
+6,,22303C3,B,2,06,300,C3,B206300C3,Aggregate travel time (1) by Means of transportation (4) by Time arriving (10),Workers 16 years and over who did not work at home,40
+6,304,22304,B,2,06,301,,B206301,Mean travel time (1) by Means of transportation (11) by Time arriving (17),Workers 16 years and over who did not work at home,187
+6,,22304C,B,2,06,301,C,B206301C,Mean travel time (1) by Means of transportation (7) by Time arriving (10),Workers 16 years and over who did not work at home,70
+6,,22304C2,B,2,06,301,C2,B206301C2,Mean travel time (1) by Means of transportation (6) by Time arriving (10),Workers 16 years and over who did not work at home,60
+6,,22304C3,B,2,06,301,C3,B206301C3,Mean travel time (1) by Means of transportation (4) by Time arriving (10),Workers 16 years and over who did not work at home,40
+6,305,22305,B,2,06,302,,B206302,Median travel time (1) by Means of transportation (11) by Time arriving (17),Workers 16 years and over who did not work at home,187
+6,,22305C,B,2,06,302,,B206302CZ,Median travel time (1) by Means of transportation (7) by Time arriving (10),Workers 16 years and over who did not work at home,70
+6,,22305C2,B,2,06,302,C,B206302C2,Median travel time (1) by Means of transportation (6) by Time arriving (10),Workers 16 years and over who did not work at home,60
+6,,22305C3,B,2,06,302,C2,B206302C3,Median travel time (1) by Means of transportation (4) by Time arriving (10),Workers 16 years and over who did not work at home,40
+7,109,22109,A,2,07,100,,A207100,"Workers per car, truck, or van (1)","Workers 16 years and over who used car, truck, or van",1
+7,234,22234,B,2,07,200,,B207200,Aggregate vehicles used (1) by Time leaving home (5),"Workers 16 years and over who used car, truck, or van",5
+7,236,22236,A,2,07,201,,A207201,"Workers per car, truck, or van (1) by Time leaving home (5)","Workers 16 years and over who used car, truck, or van",5
+9,202,22202,B,2,09,200,,B209200,Aggregate Carpools (1) by Time leaving home (5),Workers 16 years and over who carpooled,5
+9,235,22235,A,2,09,201,,A209201,Workers per carpool (1) by Time leaving home (5),Workers 16 years and over who carpooled,5
+na,na,na,C,,2,,,C202100,Time leaving home (5) by Means of transportation (4),,
+2,100,32100,A,3,02,100,,A302100,Total Workers (1),Workers 16 years and over,1
+2,101,32101,B,3,02,101,,B302101,Age of Worker (8),Workers 16 years and over,8
+2,104,32104,B,3,02,102,,B302102,Industry  (8),Workers 16 years and over,8
+2,106,32106,A,3,02,103,,A302103,Means of transportation (18),Workers 16 years and over,18
+2,108,32108,B,3,02,104,,B302104,Time leaving home to go to work (17),Workers 16 years and over,17
+2,117,32117,B,3,02,105,,B302105,Minority status (3) ,Workers 16 years and over,3
+2,118,32118,B,3,02,106,,B302106,Travel time to work (12),Workers 16 years and over,12
+2,,32201,B,3,02,200,,B302200,Age of Worker (6) by Means of transportation (7),Workers 16 years and over,42
+2,,32201C,B,3,02,200,C ,B302200C ,Age of Worker (6) by Means of transportation (4),Workers 16 years and over,24
+2,,32226,B,3,02,201,,B302201,Time leaving home (5) by Means of transportation (7),Workers 16 years and over,35
+2,,32226C,B,3,02,201,C,B302201C,Time leaving home (5) by Means of transportation (4),Workers 16 years and over,20
+2,,32227,B,3,02,202,,B302202,Travel time (12) by Means of transportation (7),Workers 16 years and over,84
+2,,32227C,B,3,02,202,C,B302202C,Travel time (12) by Means of transportation (4),Workers 16 years and over,48
+3,100,33100,B,3,03,100,,B303100,Household income in past 12 months (2010$) (9),Workers 16 years and over in households,9
+3,305,33305,B,3,03,200,,B303200,Median Household Income in the last 12 months (2010$) (1) by Means of Transportation (11),Workers 16 years and over in households,11
+3,,33305C,B,3,03,200,C,B303200C,Median Household Income in the last 12 months (2010$) (1) by Means of Transportation (7),Workers 16 years and over in households,7
+3,,33305C2,B,3,03,200,C2,B303200C2,Median Household Income in the last 12 months (2010$) (1) by Means of Transportation (6),Workers 16 years and over in households,6
+3,,33305C3,B,3,03,200,C3,B303200C3,Median Household Income in the last 12 months (2010$) (1) by Means of Transportation (4),Workers 16 years and over in households,4
+3,204,33204,B,3,03,201,,B303201,Household income in past 12 months (2010$) (5) by Means of transportation (7),Workers 16 years and over in households,35
+3,,33204C,B,3,03,201,C,B303201C,Household income in past 12 months (2010$) (5) by Means of transportation (4),Workers 16 years and over in households,20
+3,211,33211,B,3,03,202,,B303202,Vehicles available (4) by Means of transportation (7) ,Workers 16 years and over in households,28
+3,,33211C,B,3,03,202,C,B303202C,Vehicles available (4) by Means of transportation (4) ,Workers 16 years and over in households,16
+4,103,33103,B,3,04,100,,B304100,Poverty status (4),Workers 16 years and over for whom poverty status is determined,4
+5,105,32105,B,3,05,101,,B305101,Industry  (8),Workers 16 years and over who are not self-employed,8
+6,,32228,B,3,06,200,,B306200,Aggregate Travel time (1) by Means of transportation (7),Workers 16 years and over who did not work at home,7
+6,,32228C,B,3,06,200,C,B306200C,Aggregate Travel time (1) by Means of transportation (4),Workers 16 years and over who did not work at home,4
+6,,32230,B,3,06,201,,B306201,Mean Travel time (1) by Means of transportation (7),Workers 16 years and over who did not work at home,7
+6,,32230C,B,3,06,201,C,B306201C,Mean Travel time (1) by Means of transportation (4),Workers 16 years and over who did not work at home,4
+6,,32232,B,3,06,202,,B306202,Median Travel time (1) by Means of transportation (7),Workers 16 years and over who did not work at home,7
+6,,32232C,B,3,06,202,C,B306202C,Median Travel time (1) by Means of transportation (4),Workers 16 years and over who did not work at home,4
+6,300,32300,B,3,06,300,,B306300,Aggregate Travel time (1) by Means of transportation (7) and Time leaving home (5),Workers 16 years and over who did not work at home,35
+6,,32300C,B,3,06,300,C,B306300C,Aggregate Travel time (1) by Means of transportation (4) and Time leaving home (5),Workers 16 years and over who did not work at home,20
+6,301,32301,B,3,06,301,,B306301,Mean Travel time (1) by Means of transportation (7) and Time leaving home (5),Workers 16 years and over who did not work at home,35
+6,,32301C,B,3,06,301,C,B306301C,Mean Travel time (1) by Means of transportation (4) and Time leaving home (5),Workers 16 years and over who did not work at home,20
+6,302,32302,B,3,06,302,,B306302,Median Travel time (1) by Means of transportation (7) and Time leaving home (5),Workers 16 years and over who did not work at home,35
+6,,32302C,B,3,06,302,C,B306302C,Median Travel Time (1) by Means of transportation (4) and Time leaving home (5),Workers 16 years and over who did not work at home,20
+7,234,32234,B,3,07,200,,B307200,Aggregate Vehicles used (1) by Time leaving home (5),"Workers 16 years and over who used car, truck or van",5
+7,236,32236,B,3,07,201,,B307201,"Workers per car, truck, or van (1) by Time leaving home (5)","Workers 16 years and over who used car, truck or van",5
+9,202,32202,B,3,09,200,,B309200,Aggregate Carpools (1) by Time leaving home (5),Workers 16 years and over who carpooled,5
+9,235,32235,B,3,09,201,,B309201,Workers per carpool (1) by Time leaving home (5),Workers 16 years and over who carpooled,5

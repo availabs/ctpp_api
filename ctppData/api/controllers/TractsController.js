@@ -16,12 +16,14 @@
  */
 
 module.exports = {
-    
-  singleTract:function(req,res){
+   
+	// fromTract function takes a tract code and spits out information about all things from that tract
+
+
+  fromTract:function(req,res){
   	var sql = "select * from CTPP_34.A302103_tracts where from_tract = '"+req.param("tractId")+"'" ;
 	Tracts.query(sql,{},function(err,trips_data){
 		if (err) { res.send('{status:"error",message:"'+err+'"}',500); return console.log(err);}
-		console.log(trips_data);
 		res.send(trips_data);
 	});
   	// res.send("singleTract" + req.param("tractId"));
@@ -30,11 +32,19 @@ module.exports = {
 
   },
 
-  toTract:function(params){
+  // toTract function takes a tract code and spits out information about all things to that tract
+
+  toTract:function(req,res){
+  	var sql = "select * from CTPP_34.A302103_tracts where to_tract = '"+req.param("tractId")+"'" ;
+	Tracts.query(sql,{},function(err,trips_data){
+		if (err) { res.send('{status:"error",message:"'+err+'"}',500); return console.log(err);}
+		res.send(trips_data);
+	});
+  	// res.send("singleTract" + req.param("tractId"));
 
 
 
-  }.
+  },
 
   /**
    * Overrides for the settings in `config/controllers.js`

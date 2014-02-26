@@ -35,13 +35,13 @@ module.exports.routes = {
   '/': {
     view: 'home/index'
   },
-  '/tracts/to/:tractId': {
+  '/tracts/from/:tractId': {
     controller: 'TractsController',
-    action: 'singleTract'
-  }
-   '/tracts/from/:tractId': {
+    action: 'fromTract'
+  },
+   '/tracts/to/:tractId': {
     controller: 'TractsController',
-    action: 'singleTract'
+    action: 'toTract'
   }
 
   /*
